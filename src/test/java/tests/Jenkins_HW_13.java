@@ -76,7 +76,7 @@ public class Jenkins_HW_13 extends TestBase{
             $("#lastName").setValue("Ivanov");
             $("#userEmail").setValue("Ivanov@mail.ru");
             $("#genterWrapper").$(new ByText("Other")).click();
-            $("#userNumber").setValue("89007654321");
+            $("#userNumber").setValue("8900865432");
             $("[id=dateOfBirthInput]").click();
             $(".react-datepicker__month-select").click();
             $(".react-datepicker__month-select").selectOption("May");
