@@ -155,7 +155,7 @@ public class Jenkins_HW_13 extends TestBase{
             $(".modal-content").shouldHave(text("Reading"));
 //        $(".modal-content").shouldHave(text("paddington-g51aae444a_640.png"));
             $(".modal-content").shouldHave(text("Some Address"));
-            $(".modal-content").shouldHave(text("NCR Delhi"));
+            $(".modal-content").shouldHave(text("NCR Relhi"));
             $("#closeLargeModal").click();
         });
     }
